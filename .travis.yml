@@ -1,0 +1,12 @@
+sudo: false
+virtualenv:
+  system_site_packages: true
+language: c
+cache:
+  directories:
+  - mpich
+before_install:
+  - sh ./get_mpich.sh
+script:
+  - make test
+  - ./mpich/bin/mpirun -np 4 ./test
