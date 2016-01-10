@@ -1,6 +1,4 @@
 sudo: false
-virtualenv:
-  system_site_packages: true
 language: c
 cache:
   directories:
