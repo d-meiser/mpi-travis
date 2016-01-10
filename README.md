@@ -5,7 +5,7 @@
 
 This project is a minimal template for setting up continuous
 integration testing of MPI projects with
-![travis](https://travis-ci.org). The template demonstrates:
+[travis](https://travis-ci.org). The template demonstrates:
 
 - Building mpich 3.2 on travis from source.
 - Use of the travis container architecture for faster builds.
@@ -14,5 +14,5 @@ integration testing of MPI projects with
 
 A more complete example including integration with cmake and
 ctest can be found in
-![BeamLaser](https://github.com/d-meiser/BeamLaser).
+[BeamLaser](https://github.com/d-meiser/BeamLaser).
 
